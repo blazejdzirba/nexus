@@ -226,7 +226,7 @@ with tab3:
             limit = st.slider("Liczba wierszy do podglądu", 100, 10000, 500)
             df_view = conn.execute(f"SELECT * FROM signals ORDER BY timestamp DESC LIMIT {limit}").fetchdf()
             
-            st.dataframe(df_view, use_container_width=True)
+            st.dataframe(df, width=None, use_container_width=True)
             
             # Przycisk do zrzutu do Excela (tylko podgląd, dla uniknięcia wieszania przeglądarki)
             st.download_button(

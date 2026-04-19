@@ -4,6 +4,16 @@ Uruchom: python test_fixes.py
 """
 import sys
 import os
+
+# Wskazujemy Pythonowi główny folder projektu (D:\nexus)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+# Teraz możesz bezpiecznie importować swoje moduły:
+from core.engine.trade_manager import VirtualWallet
+import sys
+import os
 sys.path.insert(0, os.path.dirname(__file__))
 
 from core.engine.trade_manager import VirtualWallet
