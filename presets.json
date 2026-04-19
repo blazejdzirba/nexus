@@ -1,0 +1,13 @@
+{
+    "fvg_w": 0.4,
+    "pvsra_w": 0.35,
+    "rsi_w": 0.35,
+    "ai_threshold": 88,
+    "rsi_len": 14,
+    "ema_fast": 21,
+    "ema_slow": 55,
+    "atr_len": 14,
+    "sl_pct": 10.0,
+    "tp_pct": 2.5,
+    "leverage": 10
+}
