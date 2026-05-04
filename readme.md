@@ -1,7 +1,3 @@
-CHEATSHEET (.md) — Twój workflow (Git + env + Ollama)
-
-Skopiuj to jako np. CHEATSHEET.md 👇
-
 # 🚀 Nexus Project Cheatsheet
 
 ## 📁 1. Aktywacja środowiska
